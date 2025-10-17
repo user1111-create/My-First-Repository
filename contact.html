@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio - CONTACT</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .form-container {
+      background: rgba(255, 255, 255, 0.7); /* white transparent */
+      padding: 30px;
+      border-radius: 15px;
+      width: 500px;
+      margin: 30px auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      color: #222;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #003366;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px 14px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background-color: #0066cc;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #004a99;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🌜 Life with Elan 🌛</h1>
+    <nav>
+      <ul>
+        <li><a href="STA.ANA_ICT9Ruby_Q1Project_Llacer_Elan.html">Home</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <div class="form-container">
+    <h2>Contact Me 💌</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required>
+
+      <label for="rating">Rate my Portfolio:</label>
+      <select id="rating" name="rating" required>
+        <option value="" disabled selected>-- Select Rating --</option>
+        <option value="Excellent">🌟 Excellent</option>
+        <option value="Good">👍 Good</option>
+        <option value="Average">👌 Average</option>
+        <option value="Needs Improvement">🤔 Needs Improvement</option>
+      </select>
+
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" placeholder="Share your thoughts..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Personal Portfolio | Created by Elan Bon B. Llacer 💙</p>
+  </footer>
+</
